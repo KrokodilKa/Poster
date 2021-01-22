@@ -1,0 +1,13 @@
+#!/bin/sh -e
+
+cd ..
+
+echo ""
+echo ""
+echo "################################################################"
+echo "#### UPLOADING TO SERVER"
+echo "################################################################"
+echo ""
+echo ""
+
+rsync -rlpt -vz —progress -r ./* zego:avtopost
